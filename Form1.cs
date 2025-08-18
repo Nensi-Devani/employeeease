@@ -16,5 +16,10 @@ namespace EmployeeEase
         {
             InitializeComponent();
         }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); // to close the app
+        }
     }
 }
