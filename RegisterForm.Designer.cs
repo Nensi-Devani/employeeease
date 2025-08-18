@@ -143,6 +143,7 @@
             this.checkShowPassword.TabIndex = 14;
             this.checkShowPassword.Text = "Show Password";
             this.checkShowPassword.UseVisualStyleBackColor = true;
+            this.checkShowPassword.CheckedChanged += new System.EventHandler(this.checkShowPassword_CheckedChanged);
             // 
             // txtPass
             // 
@@ -150,6 +151,7 @@
             this.txtPass.Location = new System.Drawing.Point(271, 194);
             this.txtPass.Margin = new System.Windows.Forms.Padding(2);
             this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(279, 23);
             this.txtPass.TabIndex = 13;
             // 

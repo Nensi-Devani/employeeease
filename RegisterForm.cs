@@ -28,5 +28,11 @@ namespace EmployeeEase
             loginForm.Show(); // to show login form
             this.Hide(); // to hide register form
         }
+
+        private void checkShowPassword_CheckedChanged(object sender, EventArgs e)
+        {
+            txtPass.PasswordChar = checkShowPassword.Checked ? '\0' : '*';
+
+        }
     }
 }
