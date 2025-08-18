@@ -89,6 +89,7 @@
             // btnRegister
             // 
             this.btnRegister.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnRegister.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegister.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnRegister.FlatAppearance.BorderSize = 0;
             this.btnRegister.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -192,6 +193,7 @@
             // btnLogin
             // 
             this.btnLogin.BackColor = System.Drawing.Color.Crimson;
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogin.FlatAppearance.BorderSize = 0;
             this.btnLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Firebrick;
             this.btnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
