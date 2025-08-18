@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EmployeeEase
 {
-    public partial class Form1 : Form
+    public partial class RegisterForm : Form
     {
-        public Form1()
+        public RegisterForm()
         {
             InitializeComponent();
         }
@@ -22,11 +22,11 @@ namespace EmployeeEase
             Application.Exit(); // to close the app
         }
 
-        private void btnRegister_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
-            RegisterForm registerForm = new RegisterForm();
-            registerForm.Show(); // show register form
-            this.Hide(); // to hide login form
+            Form1 loginForm = new Form1();
+            loginForm.Show(); // to show login form
+            this.Hide(); // to hide register form
         }
     }
 }
