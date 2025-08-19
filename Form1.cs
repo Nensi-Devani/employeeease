@@ -31,7 +31,7 @@ namespace EmployeeEase
 
         private void checkShowPassword_CheckedChanged(object sender, EventArgs e)
         {
-            txtPass.PasswordChar = checkShowPassword.Checked ? '\0' : '*';
+            txtPass.PasswordChar = checkShowPassword.Checked ? '\0' : '*'; // to hide and show password
         }
     }
 }
